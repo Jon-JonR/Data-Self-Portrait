@@ -1,0 +1,38 @@
+.box-trigger {
+  width: 800px;
+  height: 600px;
+  position: absolute;
+}
+
+.box-trigger-one {
+  margin-top: 150px;
+  margin-left: 500px;
+}
+
+.box-trigger-two {
+  margin-top: 150px;
+  margin-left: 525px;
+}
+
+.box,
+.box2 {
+  width: 800px;
+  height: 600px;
+  background-color: #76aacc;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  inset: 0;
+  transition: transform 0.3s ease;
+}
+
+.box2 {
+  background-color: #768691;
+}
+
+.box-trigger:hover .box,
+.box-trigger:hover .box2 {
+  transform: translateX(-500px); 
+}
