@@ -1,38 +1,94 @@
-.box-trigger {
-  width: 800px;
-  height: 600px;
-  position: absolute;
+
+* {
+    box-sizing: border-box;
 }
 
-.box-trigger-one {
-  margin-top: 150px;
-  margin-left: 500px;
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    background: #f2f4f7;
+    font-family: Arial, sans-serif;
 }
 
-.box-trigger-two {
-  margin-top: 150px;
-  margin-left: 525px;
+/* This is the strict hover boundary. It does not move with the rectangle. */
+.hover-zone {
+    width: 320px;
+    height: 160px;
+    position: absolute;
 }
 
-.box,
-.box2 {
-  width: 800px;
-  height: 600px;
-  background-color: #76aacc;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  inset: 0;
-  transition: transform 0.3s ease;
+.hover-zone2 {
+    width: 320px;
+    height: 160px;
+    position: absolute;
 }
 
-.box2 {
-  background-color: #768691;
+/* This transparent strip is the only area that activates the movement. */
+.hover-trigger {
+    position: absolute;
+    z-index: 2;
+    right: 373px;
+    width: 45px;
+    height: 500px;
+    bottom: -150px;
+    /* Temporary visibility for locating the trigger strip. */
+    background: rgb(255 255 255 / 35%);
+    outline: 2px dashed white;
+    cursor: pointer;
 }
 
-.box-trigger:hover .box,
-.box-trigger:hover .box2 {
-  transform: translateX(-500px); 
+.hover-trigger2 {
+    position: absolute;
+    z-index: 2;
+    right: 325px;
+    width: 45px;
+    height: 500px;
+    bottom: -150px;
+    /* Temporary visibility for locating the trigger strip. */
+    background: rgb(255 255 255 / 35%);
+    outline: 2px dashed white;
+    cursor: pointer;
+}
+
+.rectangle {
+    top: -190px;
+    right: 100px;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    display: grid;
+    place-items: center;
+    color: white;
+    background-image: url(/images/Igor.jpg);
+    background-postion: center;
+    background-size: cover;
+
+    box-shadow: 0 10px 25px rgb(37 99 235 / 25%);
+    cursor: pointer;
+    transition: transform 500ms ease;
+}
+
+.rectangle2 {
+    top: -190px;
+    right: 50px;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    display: grid;
+    place-items: center;
+    color: white;
+     background-image: url(/images/Graduation.jpg);
+    background-postion: center;
+    background-size: cover;
+    box-shadow: 0 10px 25px rgb(37 99 235 / 25%);
+    cursor: pointer;
+    transition: transform 500ms ease;
+}
+
+/* The rectangle slides left only while the invisible trigger is hovered. */
+.hover-trigger:hover + .rectangle,
+.hover-trigger2:hover + .rectangle2 {
+    transform: translateX(-450px);
 }
