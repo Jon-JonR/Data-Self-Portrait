@@ -33,7 +33,7 @@ body > h1 {
     border-radius: 100%;
     margin: 30px 300px;
     text-align: left;
-    background-image: url(/images/Igor.jpg);
+    background-image: url(./images/Igor.jpg);
     background-position: center;
     background-size: cover;
     animation: rotate 15s infinite;
@@ -46,7 +46,7 @@ body > h1 {
     border-radius: 100%;
     margin: 30px 300px;
     text-align: left;
-    background-image: url(/images/Graduation.jpg);
+    background-image: url(./images/Graduation.jpg);
     background-position: center;
     background-size: cover;
     animation: rotate 15s infinite;
@@ -59,7 +59,7 @@ body > h1 {
     border-radius: 100%;
     margin: 30px 300px;
     text-align: left;
-    background-image: url(/images/Thriller.png);
+    background-image: url(./images/Thriller.png);
     background-position: center;
     background-size: cover;
     animation: rotate 15s infinite;
@@ -72,7 +72,7 @@ body > h1 {
     border-radius: 100%;
     margin: 30px 300px;
     text-align: left;
-    background-image: url(/images/Post\ Malone.webp);
+    background-image: url(./images/Post\ Malone.webp);
     background-position: center;
     background-size: cover;
     animation: rotate 15s infinite;
@@ -85,7 +85,7 @@ body > h1 {
     border-radius: 100%;
     margin: 30px 300px;
     text-align: left;
-    background-image: url(/images/Gambino.jpg);
+    background-image: url(./images/Gambino.jpg);
     background-position: center;
     background-size: cover;
     animation: rotate 15s infinite;
@@ -98,7 +98,7 @@ body > h1 {
     border-radius: 100%;
     margin: 30px 300px;
     text-align: left;
-    background-image: url(/images/Gorillaz.png);
+    background-image: url(./images/Gorillaz.png);
     background-position: center;
     background-size: cover;
     animation: rotate 15s infinite;
@@ -111,7 +111,7 @@ body > h1 {
     border-radius: 100%;
     margin: 30px 300px;
     text-align: left;
-    background-image: url(/images/Drake.jpg);
+    background-image: url(./images/Drake.jpg);
     background-position: center;
     background-size: cover;
     animation: rotate 15s infinite;
@@ -124,7 +124,7 @@ body > h1 {
     border-radius: 100%;
     margin: 30px 300px;
     text-align: left;
-    background-image: url(/images/Damn.png);
+    background-image: url(./images/Damn.png);
     background-position: center;
     background-size: cover;
     animation: rotate 15s infinite;

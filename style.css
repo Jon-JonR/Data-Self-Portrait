@@ -135,7 +135,7 @@ body {
     display: grid;
     place-items: center;
     color: white;
-    background-image: url(/images/Igor.jpg);
+    background-image: url(./images/Igor.jpg);
     background-position: center;
     background-size: cover;
     cursor: pointer;
@@ -151,7 +151,7 @@ body {
     display: grid;
     place-items: center;
     color: white;
-     background-image: url(/images/Graduation.jpg);
+     background-image: url(./images/Graduation.jpg);
     background-position: center;
     background-size: cover;
     cursor: pointer;
@@ -167,7 +167,7 @@ body {
     display: grid;
     place-items: center;
     color: white;
-     background-image: url(/images/Thriller.png);
+     background-image: url(./images/Thriller.png);
     background-position: center;
     background-size: cover;
     cursor: pointer;
@@ -183,7 +183,7 @@ body {
     display: grid;
     place-items: center;
     color: white;
-     background-image: url(/images/Post\ Malone.webp);
+     background-image: url(./images/Post\ Malone.webp);
     background-position: center;
     background-size: cover;
     cursor: pointer;
@@ -199,7 +199,7 @@ body {
     display: grid;
     place-items: center;
     color: white;
-     background-image: url(/images/Gambino.jpg);
+     background-image: url(./images/Gambino.jpg);
     background-position: center;
     background-size: cover;
     cursor: pointer;
@@ -215,7 +215,7 @@ body {
     display: grid;
     place-items: center;
     color: white;
-     background-image: url(/images/Gorillaz.png);
+     background-image: url(./images/Gorillaz.png);
     background-position: center;
     background-size: cover;
     cursor: pointer;
@@ -231,7 +231,7 @@ body {
     display: grid;
     place-items: center;
     color: white;
-     background-image: url(/images/Drake.jpg);
+     background-image: url(./images/Drake.jpg);
     background-position: center;
     background-size: cover;
     cursor: pointer;
@@ -247,7 +247,7 @@ body {
     display: grid;
     place-items: center;
     color: white;
-     background-image: url(/images/Damn.png);
+     background-image: url(./images/Damn.png);
     background-position: center;
     background-size: cover;
     cursor: pointer;
